@@ -1699,53 +1699,74 @@ section.lazy-placeholder:after {
 .cid-rr8KXM3dOn .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-rRVvTEn6E4 {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: #ffffff;
+.cid-rXQnD4tlIr {
+  background-image: url("../../../assets/images/background4.jpg");
 }
-.cid-rRVvTEn6E4 .carousel-item {
+.cid-rXQnD4tlIr .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-rXQnD4tlIr .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rXQnD4tlIr .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rXQnD4tlIr .mbr-text {
+    text-align: center;
+  }
+}
+.cid-rXQnD4tlIr H1 {
+  color: #232323;
+}
+.cid-rXQnD4tlIr .mbr-text,
+.cid-rXQnD4tlIr .mbr-section-btn {
+  color: #232323;
+}
+.cid-rXQofRt4bq {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/background3.jpg");
+}
+.cid-rXQofRt4bq .testimonials-container {
+  margin: 0 auto;
+}
+.cid-rXQofRt4bq .testimonials-container .testimonials-item {
   justify-content: center;
+  margin-top: 3rem;
   -webkit-justify-content: center;
 }
-.cid-rRVvTEn6E4 .carousel-item.active,
-.cid-rRVvTEn6E4 .carousel-item-next,
-.cid-rRVvTEn6E4 .carousel-item-prev {
-  display: flex;
+.cid-rXQofRt4bq .testimonials-container .testimonials-item .user {
+  background: #ffffff;
 }
-.cid-rRVvTEn6E4 .carousel-controls a {
-  transition: opacity .5s;
-  font-size: 2rem;
+.cid-rXQofRt4bq .testimonials-container .testimonials-item .user.row {
+  margin: 0;
 }
-.cid-rRVvTEn6E4 .carousel-controls a span {
-  position: absolute;
-  top: 180px;
-  padding: 10px;
-  border-radius: 50%;
-  color: #585858;
-  background: #c8c6c6;
-  opacity: .5;
-}
-.cid-rRVvTEn6E4 .carousel-controls a:hover span {
-  opacity: 1;
-}
-.cid-rRVvTEn6E4 .user_image {
-  width: 200px;
-  height: 200px;
-  margin-bottom: 1.6rem;
+.cid-rXQofRt4bq .testimonials-container .testimonials-item .user .user_image {
+  width: 150px;
+  height: 150px;
   overflow: hidden;
-  border-radius: 50%;
-  margin: 0 auto 2rem auto;
+  margin: 2rem auto 2rem auto;
 }
-.cid-rRVvTEn6E4 .user_image img {
+.cid-rXQofRt4bq .testimonials-container .testimonials-item .user .user_image img {
   width: 100%;
   min-width: 100%;
   min-height: 100%;
 }
-@media (max-width: 230px) {
-  .cid-rRVvTEn6E4 .user_image {
-    width: 100%;
-    height: auto;
+.cid-rXQofRt4bq .testimonials-container .testimonials-item .user .testimonials-caption {
+  padding: 2rem;
+}
+@media (max-width: 260px) {
+  .cid-rXQofRt4bq .user_image {
+    width: 100% !important;
+    height: auto !important;
   }
 }
 .cid-rRVyWnnBLo {
